@@ -246,7 +246,7 @@ fabric-sales-medallion-project/
 
 # 🛠️ Technical Implementation
 
-Through this project, I gained practical experience with:
+This project implements an end-to-end Microsoft Fabric data engineering solution using:
 
 * Microsoft Fabric
 * Fabric Lakehouse
