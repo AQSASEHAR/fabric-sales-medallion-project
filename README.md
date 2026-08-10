@@ -157,7 +157,7 @@ Microsoft Fabric **Data Pipelines** are used to orchestrate the complete data en
 
 The pipeline connects the different stages of the project and ensures that the processing activities are executed in the required sequence.
 
-<img width="1703" height="773" alt="image" src="https://github.com/user-attachments/assets/44c3aded-d233-4da6-91e5-e8cc8fe7bf7e" />
+<img width="1703" height="773" alt="image" src="https://github.com/user-attachments/assets/44c3aded-d233-4da6-91e5-e8cc8fe7bf7e" /> ***Microsoft Fabric Data Pipeline orchestrating the full Raw → Landing → Bronze → Silver → Gold workflow.***
 
 
 ### End-to-End Workflow
@@ -208,7 +208,7 @@ Power BI
 # 📊 6. Power BI Reporting
 
 The Gold layer provides prepared data for **Power BI reporting and analytics**.
-<img width="1392" height="907" alt="image" src="https://github.com/user-attachments/assets/da3da99b-ae35-408e-a174-40ea78bf3f78" />
+<img width="1392" height="907" alt="image" src="https://github.com/user-attachments/assets/da3da99b-ae35-408e-a174-40ea78bf3f78" /> ***Power BI report built on top of the Gold layer.***
 
 
 The data can be used to analyse:
