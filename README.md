@@ -210,7 +210,7 @@ Power BI
 # 📊 6. Power BI Reporting
 
 The Gold layer provides prepared data for **Power BI reporting and analytics**.
-<img width="1467" height="881" alt="image" src="https://github.com/user-attachments/assets/57586007-a84f-465f-8450-bea97bb77a2e" /> ***Power BI report built on top of the Gold layer.***
+<img width="1467" height="881" alt="image" src="https://github.com/user-attachments/assets/57586007-a84f-465f-8450-bea97bb77a2e" /> ***Power BI report built on the Gold layer, showing sales and profit broken down by category, sub-category, and product — including total sales (456.14K) and total profit (53.55K).***
 
 
 The data can be used to analyse:
