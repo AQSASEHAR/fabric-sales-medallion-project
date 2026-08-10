@@ -72,6 +72,8 @@ The Bronze layer stores the ingested data in a **Delta Lake table**.
 The main Bronze table used in the project is:
 
 `tblsales_bronze`
+<img width="1841" height="929" alt="image" src="https://github.com/user-attachments/assets/6e25dcf5-cf7c-459b-afad-4222ad9ea582" />
+
 
 ### Key activities
 
@@ -95,6 +97,9 @@ The main Bronze table used in the project is:
 The Silver layer is responsible for **data cleaning, validation, and transformation**.
 
 ### Data Cleaning
+
+<img width="1811" height="925" alt="image" src="https://github.com/user-attachments/assets/f187918d-09ff-4390-8d76-0a4cfeaec66c" />
+
 
 The Silver transformation includes:
 
@@ -129,6 +134,8 @@ The transformed data is stored in the Silver layer.
 
 The Gold layer contains data that has been transformed and prepared for **business analysis and reporting**.
 
+<img width="1817" height="904" alt="image" src="https://github.com/user-attachments/assets/cbd83cd4-9d20-4ef5-9d5b-d6ac5117477e" />
+
 ### Key activities
 
 * Reading Silver-layer data
@@ -148,6 +155,9 @@ The Gold layer contains data that has been transformed and prepared for **busine
 Microsoft Fabric **Data Pipelines** are used to orchestrate the complete data engineering workflow.
 
 The pipeline connects the different stages of the project and ensures that the processing activities are executed in the required sequence.
+
+<img width="1703" height="773" alt="image" src="https://github.com/user-attachments/assets/44c3aded-d233-4da6-91e5-e8cc8fe7bf7e" />
+
 
 ### End-to-End Workflow
 
@@ -197,6 +207,8 @@ Power BI
 # 📊 6. Power BI Reporting
 
 The Gold layer provides prepared data for **Power BI reporting and analytics**.
+<img width="1392" height="907" alt="image" src="https://github.com/user-attachments/assets/da3da99b-ae35-408e-a174-40ea78bf3f78" />
+
 
 The data can be used to analyse:
 
