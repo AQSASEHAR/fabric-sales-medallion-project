@@ -112,9 +112,10 @@ The Silver transformation includes:
 
 * Removing duplicate records
 * Handling missing values
-* Performing data quality checks
-* Ensuring appropriate data types
-
+* Performing data-quality checks
+* Validating and standardising data types
+* Preparing the dataset for downstream business transformations
+    
 ### Business Transformations
 
 #### Delivery Days
@@ -145,11 +146,11 @@ The Gold layer contains data that has been transformed and prepared for **busine
 
 ### Key activities
 
-* Reading Silver-layer data
-* Applying business transformations
-* Preparing analytical datasets
-* Creating business-ready data
-* Preparing data for reporting and visualisation
+* Reading transformed data from the Silver layer
+* Applying final business transformations
+* Creating business-ready analytical datasets
+* Preparing sales, profitability, customer, product, regional and delivery data for reporting
+* Preparing the Gold-layer data for Power BI analytics
 
 ### Notebook
 
@@ -159,7 +160,11 @@ The Gold layer contains data that has been transformed and prepared for **busine
 
 # 🔄 5. End-to-End Orchestration
 
-Microsoft Fabric **Data Pipelines** are used to orchestrate the complete data engineering workflow.
+Microsoft Fabric **Raw to Landing — Ingests the raw sales data into the Landing area.
+Landing to Bronze — Loads the Landing data into the Bronze Delta table.
+Silver Transformation — Cleans, validates and transforms the Bronze data.Silver to Gold — Transforms the Silver data into business-ready Gold data.
+
+Reporting: Power BI consumes the Gold-layer data for analytics and reporting.** are used to orchestrate the complete data engineering workflow.
 
 The pipeline connects the different stages of the project and ensures that the processing activities are executed in the required sequence.
 
