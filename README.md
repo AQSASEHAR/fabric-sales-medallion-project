@@ -81,8 +81,7 @@ The main Bronze table used in the project is:
 
 `tblsales_bronze`
 
-<img width="1841" height="929" alt="image" src="https://github.com/user-attachments/assets/6e25dcf5-cf7c-459b-afad-4222ad9ea582" /> ***Bronze Delta table containing the ingested sales data, with Delta MERGE logic for inserting new records and updating existing records.***
-
+<img width="1841" height="929" alt="image" src="https://github.com/user-attachments/assets/6e25dcf5-cf7c-459b-afad-4222ad9ea582" /> ***Bronze Delta table containing the ingested sales data, with Delta Lake MERGE logic for inserting new records and updating existing records.***
 
 
 ### Key activities
@@ -91,10 +90,8 @@ The main Bronze table used in the project is:
 * Creating the Bronze Delta table
 * Applying the required schema
 * Creating temporary Spark views
-* Using Delta Lake `MERGE`
-* Updating existing records
-* Inserting new records
-* Adding a processing date
+* Using Delta Lake MERGE to insert new records and update existing records
+* Adding a processing date for data tracking
 
 ### Notebook
 
