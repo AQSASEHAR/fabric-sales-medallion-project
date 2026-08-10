@@ -62,6 +62,7 @@ The Bronze layer stores the ingested data in a **Delta Lake table**.
 The main Bronze table used in the project is:
 
 `tblsales_bronze`
+
 <img width="1841" height="929" alt="image" src="https://github.com/user-attachments/assets/6e25dcf5-cf7c-459b-afad-4222ad9ea582" /> ***Bronze Delta table creation and MERGE logic for updating and inserting sales records***.
 **
 
