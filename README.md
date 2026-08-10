@@ -135,7 +135,7 @@ The transformed data is stored in the Silver layer.
 
 The Gold layer contains data that has been transformed and prepared for **business analysis and reporting**.
 
-<img width="1817" height="904" alt="image" src="https://github.com/user-attachments/assets/cbd83cd4-9d20-4ef5-9d5b-d6ac5117477e" />
+<img width="1817" height="904" alt="image" src="https://github.com/user-attachments/assets/cbd83cd4-9d20-4ef5-9d5b-d6ac5117477e" /> ***Gold-layer notebook producing the business-ready dataset used for Power BI reporting.***
 
 ### Key activities
 
