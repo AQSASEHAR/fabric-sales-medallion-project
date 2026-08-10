@@ -89,7 +89,7 @@ The Silver layer is responsible for **data cleaning, validation, and transformat
 
 ### Data Cleaning
 
-<img width="1811" height="925" alt="image" src="https://github.com/user-attachments/assets/f187918d-09ff-4390-8d76-0a4cfeaec66c" />***Silver-layer notebook cleaning, deduplicating, and validating the Bronze data.***
+<img width="1811" height="925" alt="image" src="https://github.com/user-attachments/assets/f187918d-09ff-4390-8d76-0a4cfeaec66c" />***Silver-layer notebook cleaning, deduplicating, and validating the Bronze data***.
 
 
 The Silver transformation includes:
