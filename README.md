@@ -244,7 +244,7 @@ fabric-sales-medallion-project/
 
 ---
 
-# 🎯 Key Learning Outcomes
+# 🛠️ Technical Implementation
 
 Through this project, I gained practical experience with:
 
