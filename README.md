@@ -188,8 +188,11 @@ Power BI
 ### Pipeline Stages
 
 1.Raw to Landing — Ingests the raw sales data into the Landing area.
+
 2.Landing to Bronze — Loads the Landing data into the Bronze Delta table.
+
 3.Silver Transformation — Cleans, validates and transforms the Bronze data.
+
 4.Silver to Gold — Transforms the Silver data into business-ready Gold data.
 
 Reporting: Power BI consumes the Gold-layer data for analytics and reporting.
