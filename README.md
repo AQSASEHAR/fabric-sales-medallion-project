@@ -210,7 +210,7 @@ Reporting: Power BI consumes the Gold-layer data for analytics and reporting.
 # 📊 6. Power BI Reporting
 
 The Gold layer provides prepared data for **Power BI reporting and analytics**.
-<img width="1392" height="907" alt="image" src="https://github.com/user-attachments/assets/da3da99b-ae35-408e-a174-40ea78bf3f78" /> ***Power BI report built on top of the Gold layer.***
+<img width="1467" height="881" alt="image" src="https://github.com/user-attachments/assets/57586007-a84f-465f-8450-bea97bb77a2e" /> ***Power BI report built on top of the Gold layer.***
 
 
 The data can be used to analyse:
