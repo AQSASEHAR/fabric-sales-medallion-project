@@ -160,11 +160,7 @@ The Gold layer contains data that has been transformed and prepared for **busine
 
 # 🔄 5. End-to-End Orchestration
 
-Microsoft Fabric **Raw to Landing — Ingests the raw sales data into the Landing area.
-Landing to Bronze — Loads the Landing data into the Bronze Delta table.
-Silver Transformation — Cleans, validates and transforms the Bronze data.Silver to Gold — Transforms the Silver data into business-ready Gold data.
-
-Reporting: Power BI consumes the Gold-layer data for analytics and reporting.** are used to orchestrate the complete data engineering workflow.
+Microsoft Fabric Data Pipelines are used to orchestrate the complete data engineering workflow.
 
 The pipeline connects the different stages of the project and ensures that the processing activities are executed in the required sequence.
 
@@ -191,20 +187,12 @@ Power BI
 
 ### Pipeline Stages
 
-1. **Raw to Landing**
-   Ingests the raw sales data into the Landing area.
+1.Raw to Landing — Ingests the raw sales data into the Landing area.
+2.Landing to Bronze — Loads the Landing data into the Bronze Delta table.
+3.Silver Transformation — Cleans, validates and transforms the Bronze data.
+4.Silver to Gold — Transforms the Silver data into business-ready Gold data.
 
-2. **Landing to Bronze**
-   Loads the Landing data into the Bronze Delta table.
-
-3. **Silver Transformation**
-   Cleans and transforms the Bronze data.
-
-4. **Silver to Gold**
-   Transforms the Silver data into business-ready Gold data.
-
-5. **Power BI**
-   Uses the Gold layer for reporting and analytics.
+Reporting: Power BI consumes the Gold-layer data for analytics and reporting.
 
 ### Benefits of Orchestration
 
