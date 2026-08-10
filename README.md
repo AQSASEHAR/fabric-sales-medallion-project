@@ -195,7 +195,7 @@ Power BI
 
 4.Silver to Gold — Transforms the Silver data into business-ready Gold data.
 
-Reporting: Power BI consumes the Gold-layer data for analytics and reporting.
+5.Reporting: Power BI consumes the Gold-layer data for analytics and reporting.
 
 ### Benefits of Orchestration
 
