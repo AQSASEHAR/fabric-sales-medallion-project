@@ -29,6 +29,24 @@ The project follows the Medallion Architecture, with separate layers for differe
 
 <img width="1472" height="1088" alt="image" src="https://github.com/user-attachments/assets/490b0c97-a677-4cb6-9e6c-37bec1df1959" />
 
+Raw:
+Original source files before ingestion.
+
+Landing:
+Initial staging area where source files are ingested into Microsoft Fabric.
+
+Bronze:
+Persistent raw-data layer storing ingested data in Delta format with minimal transformation.
+
+Silver:
+Cleaned, validated and transformed data prepared for downstream analytics.
+
+Gold:
+Business-ready datasets and metrics designed for reporting and analytics.
+
+Power BI:
+Consumes Gold-layer data for dashboards and business insights.
+
 
 The complete process is orchestrated using a **Microsoft Fabric Data Pipeline**.
 
