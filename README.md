@@ -27,19 +27,8 @@ The complete data flow is:
 
 The project follows the Medallion Architecture, with separate layers for different stages of data processing.
 
-```text
-Raw Sales Data
-      ↓
-   Landing
-      ↓
-   Bronze
-      ↓
-   Silver
-      ↓
-    Gold
-      ↓
-  Power BI
-```
+<img width="1472" height="1088" alt="image" src="https://github.com/user-attachments/assets/490b0c97-a677-4cb6-9e6c-37bec1df1959" />
+
 
 The complete process is orchestrated using a **Microsoft Fabric Data Pipeline**.
 
