@@ -38,8 +38,7 @@ The complete process is orchestrated using a **Microsoft Fabric Data Pipeline**.
 
 The first stage of the project ingests the raw sales data into the **Landing area** of the Fabric Lakehouse.
 
-<img width="1836" height="862" alt="image" src="https://github.com/user-attachments/assets/d311e8e4-eb74-4304-8f7f-7b057e97342e" />
-   ***Notebook reading raw CSV files and loading them into the Landing area, with a preview of the resulting sales table.***
+<img width="1836" height="862" alt="image" src="https://github.com/user-attachments/assets/d311e8e4-eb74-4304-8f7f-7b057e97342e" />   ***Notebook reading raw CSV files and loading them into the Landing area, with a preview of the resulting sales table.***
 
 
 ### Key activities
